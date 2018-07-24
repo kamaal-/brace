@@ -932,7 +932,7 @@ var JavaHighlightRules = function() {
         ]
     };
 
-
+    console.log("***MVEL KEYWORDS***");
     this.embedRules(DocCommentHighlightRules, "doc-",
         [ DocCommentHighlightRules.getEndRule("start") ]);
     this.normalizeRules();
